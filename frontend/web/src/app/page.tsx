@@ -1,0 +1,24 @@
+import { FeaturedProducts } from "@/components/homepage/featured-products";
+import { FeaturedServices } from "@/components/homepage/featured-services";
+import { SideBar } from "@/components/homepage/sidebar";
+import { Footer } from "@/components/navigation/footer";
+import { NavBar } from "@/components/navigation/navbar";
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen">
+      <div className="w-full h-full">
+        <NavBar />
+        <div className="flex bg-bg-100 py-16 px-28">
+          <SideBar />
+          <div>
+            <FeaturedProducts />
+            <FeaturedServices />
+          </div>
+        </div>
+        <Footer />
+      </div>
+    </main>
+  );
+}
