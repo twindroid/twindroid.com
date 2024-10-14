@@ -2,6 +2,16 @@ import { environment } from "@/environments/environment";
 
 const apiUrl = environment.apiUrl + 'product/'
 
+export const searchFeaturedProducts = async () => {
+    try {
+        const productList = await fetch(apiUrl + "search");
+        const result = await productList.json();
+        return result;
+    } catch (error) {
+        throw error; // Propagate the error for handling in components
+    }
+};
+
 export const searchProducts = async (
     // pageIndex = 0, searchQuery = '', orderBy = ''
 ) => {
@@ -17,10 +27,24 @@ export const searchProducts = async (
         console.log(apiUrl);
         const productList = await fetch(apiUrl + "search");
         const result = await productList.json();
-        console.log(result);
         return result;
     } catch (error) {
         throw error; // Propagate the error for handling in components
     }
+};
 
+export const sellProduct = async (product: any) => {
+    try {
+        const productSell = await fetch(apiUrl,{
+            method: "POST",
+            headers:{
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(product)
+        });
+        const result = await productSell.json();
+        return result;
+    } catch (error) {
+        throw error;
+    }
 };

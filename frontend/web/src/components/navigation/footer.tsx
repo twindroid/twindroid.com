@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className="flex w-full h-96 bg-bg-200 justify-evenly p-4">
+    <div className="flex w-full h-96 bg-bg-200 justify-evenly p-4" id="about">
       <div className="">
         <p className="text-3xl mb-2 font-semibold">Sobre</p>
         <p>Equipa</p>

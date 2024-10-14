@@ -1,21 +1,26 @@
 import Image from "next/image"
 
 export function CardComponent(product: any){
-
-  product=product.product;
-
-  if (product.features && product.features.length > 0){
-  const productFeatures = []
-  
-  product.features.map(product => 
-    <CardComponent key={product.id} />
+console.log(product);
+product=product.product;
+const productFeatures = [];
+if (!product || !product.features || product.features.length === 0) {
+  return null; // or return some fallback UI
+}
+if (product.features && product.features.length > 0) {
+  productFeatures.push(
+    product.features.map(feature => 
+      <div key={feature.name}>
+        <p>{feature.value}</p>
+      </div>
+    )
   );
 }
 
         <div className="inline-flex flex-wrap justify-between px-3" id="cards1">
           {productFeatures}
         </div>
-    return <div className="max-w-96 min-w-10 mt-6 mx-4 border rounded-xl bg-bg-300 border-gray-200 dark:border-gray-700 hover:ring-4 transition cursor-pointer hover:border-blue-900 text-black dark:text-white shadow-md shadow-bg-100 hover:shadow-lg hover:shadow-black md:hover:scale-105 before:duration-[400ms] hover:duration-[400ms]">
+    return <div className="max-w-72 min-w-10 mt-6 mx-4 border rounded-xl bg-bg-300 border-gray-200 dark:border-gray-700 hover:ring-4 transition cursor-pointer hover:border-blue-900 text-black dark:text-white shadow-md shadow-bg-100 hover:shadow-lg hover:shadow-black md:hover:scale-105 before:duration-[400ms] hover:duration-[400ms]">
             <Image
               src={require("@/assets/img/mix4.jpg")}
               className="rounded-t-xl w-full"

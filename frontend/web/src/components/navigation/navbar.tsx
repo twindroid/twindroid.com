@@ -19,7 +19,7 @@ export function NavBar() {
             <div>
               <a
                 className="relative hover:text-primary-200 before:content-[''] before:absolute before:-bottom-3 before:left-0 before:w-0 before:h-[5px] before:rounded-full before:transition-all before:duration-[400ms] hover:duration-[400ms] before:bg-primary-200 hover:before:w-full"
-                href="#"
+                href="#featuring"
               >
                 Promoções
               </a>
@@ -27,7 +27,7 @@ export function NavBar() {
             <div>
               <a
                 className="relative hover:text-primary-200 before:content-[''] before:absolute before:-bottom-3 before:left-0 before:w-0 before:h-[5px] before:rounded-full before:transition-all before:duration-[400ms] hover:duration-[400ms] before:bg-primary-200 hover:before:w-full"
-                href="#"
+                href="#products"
               >
                 Produtos
               </a>
@@ -35,7 +35,7 @@ export function NavBar() {
             <div>
               <a
                 className="relative hover:text-primary-200 before:content-[''] before:absolute before:-bottom-3 before:left-0 before:w-0 before:h-[5px] before:rounded-full before:transition-all before:duration-[400ms] hover:duration-[400ms] before:bg-primary-200 hover:before:w-full"
-                href="#"
+                href="#services"
               >
                 Serviços
               </a>
@@ -43,7 +43,7 @@ export function NavBar() {
             <div>
               <a
                 className="relative hover:text-primary-200 before:content-[''] before:absolute before:-bottom-3 before:left-0 before:w-0 before:h-[5px] before:rounded-full before:transition-all before:duration-[400ms] hover:duration-[400ms] before:bg-primary-200 hover:before:w-full"
-                href="#"
+                href="#about"
               >
                 Sobre
               </a>

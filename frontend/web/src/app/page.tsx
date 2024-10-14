@@ -3,7 +3,7 @@ import { FeaturedServices } from "@/components/homepage/featured-services";
 import { SideBar } from "@/components/homepage/sidebar";
 import { Footer } from "@/components/navigation/footer";
 import { NavBar } from "@/components/navigation/navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <NavBar />
         <div className="flex bg-bg-100 py-16 px-28">
           <SideBar />
-          <div>
+          <div id="featuring">
             <FeaturedProducts />
             <FeaturedServices />
           </div>

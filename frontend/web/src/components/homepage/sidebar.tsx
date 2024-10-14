@@ -10,34 +10,34 @@ export function SideBar() {
       <div>
         <p
           // href="#"
-          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white"
+          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white cursor-pointer"
         >
           RAM
         </p>
         <p
           // href="#"
           // onClick={() => {}}
-          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white"
+          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white cursor-pointer"
         >
           CPU
         </p>
         <p
           // href="#"
-          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white"
+          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white cursor-pointer"
         >
-          Lançamento
+          Placa gráfica 
         </p>
         <p
           // href="#"
-          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white"
+          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white cursor-pointer"
         >
-          Transfers
+          Motherboard
         </p>
         <p
           // href="#"
-          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white"
+          className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 hover:text-white cursor-pointer"
         >
-          Log Out
+          Outros
         </p>
       </div>
     </div>
