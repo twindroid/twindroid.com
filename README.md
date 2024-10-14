@@ -3,7 +3,7 @@
 # requirements
 To run this project you need to run backend in visual studio
 
-On the first run, you need to press CTRL+SHIFT+B
+On the first run, you need to press CTRL+SHIFT+B in visual studio
 
 
 ## Getting Started
