@@ -44,3 +44,4 @@ C:\Users\tiago\Desktop\Developing\twindroid.com\backend\API\twindroid_api\twindr
 C:\Users\tiago\Desktop\Developing\twindroid.com\backend\API\twindroid_api\twindroid_api\obj\Debug\net8.0\twindroid_api.genruntimeconfig.cache
 C:\Users\tiago\Desktop\Developing\twindroid.com\backend\API\twindroid_api\twindroid_api\obj\Debug\net8.0\ref\twindroid_api.dll
 C:\Users\tiago\Desktop\Developing\twindroid.com\backend\API\twindroid_api\twindroid_api\bin\Debug\net8.0\System.Web.Cors.dll
+C:\Users\tiago\Desktop\Developing\twindroid.com\backend\API\twindroid_api\twindroid_api\obj\Debug\net8.0\twindroid_api.sourcelink.json

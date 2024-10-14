@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("twindroid_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a2dd14efd12e94fae5824125278d2897cecf219")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d6066b145d3a448273d80c56b58150e7c5bc68c")]
 [assembly: System.Reflection.AssemblyProductAttribute("twindroid_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("twindroid_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

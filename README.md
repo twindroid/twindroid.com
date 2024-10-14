@@ -1,1 +1,24 @@
 # twindroid.com
+
+# requirements
+To run this project you need to run backend in visual studio
+
+On the first run, you need to press CTRL+SHIFT+B
+
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
